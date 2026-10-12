@@ -1,0 +1,23 @@
+{
+  "station": "AM.R19BB.00",
+  "checked_at_eastern": "2026-10-12T14:50:11-04:00",
+  "purpose": "Pre-publication verification of the retained R19BB dashboard package",
+  "source_package": "R19BB-Verified-Publish-Files-2026-10-11.zip",
+  "source_package_sha256": "ae0ce13853a9347ca1b5b6796bee470fc372d1db99e6dd47e907547e6b130d8d",
+  "measurement_archive_sha256": "751802d30b86cc2854b9e75d68747284e954d53907161da30ff14b2301eae45c",
+  "hdf_complete_minutes": 10828,
+  "ehz_complete_minutes": 9387,
+  "latest_verified_hdf_sample_eastern": "2026-10-11T07:11:44.874-04:00",
+  "latest_verified_ehz_sample_eastern": "2026-10-11T07:11:43.704-04:00",
+  "checks": [
+    {"name": "Station identity and retained package integrity", "result": "passed", "scope": "All 13 publication assets match saved project version 9; five included original waveform files match source fingerprints."},
+    {"name": "Unique complete minutes and channel separation", "result": "passed", "scope": "HDF and EHZ recounted separately; prior ledger entries unchanged; no duplicate minute timestamps."},
+    {"name": "Independent frequency totals and timestamps", "result": "passed", "scope": "All four band totals, percentages, longest runs, threshold-duration counts and CSV rows agree."},
+    {"name": "Report consistency", "result": "passed", "scope": "Both PDF hashes and their report-window counts agree with the retained archive."},
+    {"name": "Station isolation and local download targets", "result": "passed", "scope": "Two PDF links and all linked data files resolve in the local package. Public delivery is not yet verified."}
+  ],
+  "public_site_verified": false,
+  "measurement_dates_changed": false,
+  "calibrated_pressure_or_health_claims_added": false,
+  "note": "This verification receipt is not confirmation that the website has deployed."
+}
